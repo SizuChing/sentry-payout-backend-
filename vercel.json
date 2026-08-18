@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/payout.js": {
+      "runtime": "edge"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "sentry-payout-backend",
+  "version": "1.0.0",
+  "description": "SentryPay 出金後端 API — 保護 API Key 的中間層",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
