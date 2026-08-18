@@ -53,7 +53,7 @@ export default async function handler(req, res) {
     if (metadata) payload.metadata = metadata;
 
     // 呼叫 SentryPay 出金 API
-    const response = await fetch('https://api.sentrypay.com/api/v1/payout-sessions/', {
+    const response = await fetch('https://sentry-pay-website.vercel.app/api/v1/payout-sessions/', {
       method: 'POST',
       headers: {
         'X-API-Key': API_KEY,
