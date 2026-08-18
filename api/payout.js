@@ -58,7 +58,7 @@ export default async function handler(req, res) {
       headers: {
         'X-API-Key': API_KEY,
         'Content-Type': 'application/json',
-        'Idempotency-Key': crypto.randomUUID(),
+        'Idempotency-Key': Date.now().toString(),
       },
       body: JSON.stringify(payload),
     });
